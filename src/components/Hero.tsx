@@ -74,15 +74,6 @@ const Hero: React.FC = () => {
                     <Linkedin className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 xl:h-9 xl:w-9 group-hover:text-blue-400 transition-all duration-200 relative z-10" />
                   </div>
                 </a>
-                <a
-                  href="mailto:yug.agarwal@email.com"
-                  className="group relative"
-                >
-                  <div className="p-2 sm:p-3 md:p-4 lg:p-5 bg-gradient-to-br from-slate-800/60 via-slate-700/60 to-slate-800/60 hover:from-slate-700/70 hover:via-slate-600/70 hover:to-slate-700/70 border border-slate-600/60 hover:border-slate-500/80 rounded-xl sm:rounded-2xl md:rounded-3xl transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-emerald-500/25 backdrop-blur-xl relative overflow-hidden transform hover:-translate-y-1 sm:hover:-translate-y-2 md:hover:-translate-y-3">
-                    <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <Mail className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 xl:h-9 xl:w-9 group-hover:text-emerald-400 transition-all duration-200 relative z-10" />
-                  </div>
-                </a>
               </div>
             </div>
 

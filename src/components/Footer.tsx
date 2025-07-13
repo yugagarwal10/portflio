@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
         ))}
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-2 sm:py-16 sm:pb-4 relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 sm:gap-12 mb-8 sm:mb-12">
             {/* Enhanced Brand Section */}
@@ -78,13 +78,6 @@ const Footer: React.FC = () => {
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-emerald-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <Linkedin className="h-4 w-4 sm:h-5 sm:w-5 text-slate-400 group-hover:text-blue-400 transition-colors relative z-10" />
-                </a>
-                <a
-                  href="mailto:yug.agarwal@email.com"
-                  className="group p-2 sm:p-3 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 hover:border-slate-600 rounded-lg sm:rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 backdrop-blur-sm relative overflow-hidden"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-slate-400 group-hover:text-emerald-400 transition-colors relative z-10" />
                 </a>
               </div>
             </div>
@@ -152,31 +145,6 @@ const Footer: React.FC = () => {
                     <p className="text-white font-medium text-xs sm:text-sm md:text-base">Surat , India</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          {/* Enhanced Bottom Section */}
-          <div className="border-t border-slate-700/50 pt-6 sm:pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <div className="flex items-center space-x-2 sm:space-x-3">
-                <p className="text-slate-400 flex items-center space-x-1 sm:space-x-2 font-medium text-sm sm:text-base">
-                  <span>© {currentYear} Yug Agarwal. Crafted with</span>
-                  <Heart className="h-3 w-3 sm:h-4 sm:w-4 text-red-500 animate-pulse" />
-                  <span>and lots of</span>
-                  <span className="text-yellow-400 font-bold">☕</span>
-                </p>
-              </div>
-
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
-                <div className="flex items-center space-x-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-500/20 rounded-full backdrop-blur-sm">
-                  <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-                  <span className="text-xs sm:text-sm font-bold text-slate-300">Available for work</span>
-                </div>
-
-                <button className="group px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span className="relative z-10">Hire Me</span>
-                </button>
               </div>
             </div>
           </div>

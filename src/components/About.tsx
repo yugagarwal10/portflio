@@ -53,13 +53,13 @@ const About: React.FC = () => {
 
   const achievements = [
     {
-      title: '20+ Projects Completed',
+      title: '5+ Projects Completed',
       description: 'Successfully delivered diverse web applications',
       icon: <CheckCircle className="h-6 w-6 text-emerald-400" />,
       color: 'text-emerald-400'
     },
     {
-      title: '3+ Years Experience',
+      title: '2+ Years Experience',
       description: 'Continuous learning and professional growth',
       icon: <TrendingUp className="h-6 w-6 text-blue-400" />,
       color: 'text-blue-400'
@@ -182,7 +182,7 @@ const About: React.FC = () => {
                     <div className="p-3 sm:p-4 bg-slate-800/50 rounded-xl mr-4 border border-slate-700">
                       {skill.icon}
                     </div>
-                    <div className="flex-1">
+                    <div className="flex flex-col">
                       <h3 className="text-lg sm:text-xl font-black text-white mb-1">{skill.title}</h3>
                       <div className={`w-16 h-1 bg-gradient-to-r ${skill.borderGradient} rounded-full`}></div>
                     </div>
@@ -352,9 +352,9 @@ const About: React.FC = () => {
           {/* Enhanced Personal Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16 mt-8" data-aos="fade-up" data-aos-delay="200">
             {[
-              { number: '3+', label: 'Years Experience', icon: <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-blue-400', bg: 'from-blue-500/20 to-blue-600/20', border: 'border-blue-500/30' },
-              { number: '20+', label: 'Projects Completed', icon: <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-emerald-400', bg: 'from-emerald-500/20 to-emerald-600/20', border: 'border-emerald-500/30' },
-              { number: '10+', label: 'Technologies', icon: <Zap className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-purple-400', bg: 'from-purple-500/20 to-purple-600/20', border: 'border-purple-500/30' },
+              { number: '2+', label: 'Years Experience', icon: <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-blue-400', bg: 'from-blue-500/20 to-blue-600/20', border: 'border-blue-500/30' },
+              { number: '5+', label: 'Projects Completed', icon: <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-emerald-400', bg: 'from-emerald-500/20 to-emerald-600/20', border: 'border-emerald-500/30' },
+              { number: '5+', label: 'Technologies', icon: <Zap className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-purple-400', bg: 'from-purple-500/20 to-purple-600/20', border: 'border-purple-500/30' },
               { number: '24/7', label: 'Availability', icon: <Coffee className="h-5 w-5 sm:h-6 sm:w-6" />, color: 'text-yellow-400', bg: 'from-yellow-500/20 to-yellow-600/20', border: 'border-yellow-500/30' }
             ].map((stat, index) => (
               <div

@@ -10,9 +10,9 @@ const Skills: React.FC = () => {
       borderColor: 'border-blue-500/30',
       skills: [
         { name: 'React', level: 95, color: 'from-blue-400 to-blue-600', expertise: 'Expert' },
-        { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-yellow-600', expertise: 'Advanced' },
+        { name: 'JavaScript', level: 95, color: 'from-yellow-400 to-yellow-600', expertise: 'Expert' },
         { name: 'HTML/CSS', level: 95, color: 'from-orange-400 to-orange-600', expertise: 'Expert' },
-        { name: 'Tailwind CSS', level: 90, color: 'from-teal-400 to-teal-600', expertise: 'Advanced' },
+        { name: 'Tailwind CSS', level: 95, color: 'from-teal-400 to-teal-600', expertise: 'Expert' },
       ]
     },
     {
@@ -21,10 +21,10 @@ const Skills: React.FC = () => {
       gradient: 'from-emerald-500/20 to-emerald-600/20',
       borderColor: 'border-emerald-500/30',
       skills: [
-        { name: 'Node.js', level: 85, color: 'from-green-400 to-green-600', expertise: 'Advanced' },
-        { name: 'MongoDB', level: 80, color: 'from-green-500 to-green-700', expertise: 'Advanced' },
-        { name: 'SQL', level: 75, color: 'from-blue-500 to-blue-700', expertise: 'Intermediate' },
-        { name: 'Python', level: 60, color: 'from-yellow-500 to-yellow-700', expertise: 'Intermediate' },
+        { name: 'Node.js', level: 95, color: 'from-green-400 to-green-600', expertise: 'Expert' },
+        { name: 'MongoDB', level: 95, color: 'from-green-500 to-green-700', expertise: 'Expert' },
+        { name: 'SQL', level: 40, color: 'from-blue-500 to-blue-700', expertise: 'Basic' },
+        { name: 'Python', level: 40, color: 'from-yellow-500 to-yellow-700', expertise: 'Basic' },
       ]
     },
     {
@@ -35,8 +35,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-yellow-600', expertise: 'Advanced' },
         { name: 'Python', level: 60, color: 'from-blue-400 to-blue-600', expertise: 'Intermediate' },
-        { name: 'C', level: 55, color: 'from-gray-400 to-gray-600', expertise: 'Intermediate' },
-        { name: 'PHP', level: 50, color: 'from-indigo-400 to-indigo-600', expertise: 'Basic' },
+        { name: 'C', level: 45, color: 'from-gray-400 to-gray-600', expertise: 'Basic' },
+        { name: 'PHP', level: 40, color: 'from-indigo-400 to-indigo-600', expertise: 'Basic' },
       ]
     },
     {
@@ -45,9 +45,9 @@ const Skills: React.FC = () => {
       gradient: 'from-orange-500/20 to-orange-600/20',
       borderColor: 'border-orange-500/30',
       skills: [
-        { name: 'Git/GitHub', level: 85, color: 'from-gray-600 to-gray-800', expertise: 'Advanced' },
+        { name: 'Git/GitHub', level: 90, color: 'from-gray-600 to-gray-800', expertise: 'Expert' },
         { name: 'Docker', level: 70, color: 'from-blue-400 to-blue-600', expertise: 'Intermediate' },
-        { name: 'Figma', level: 75, color: 'from-pink-400 to-pink-600', expertise: 'Intermediate' },
+        { name: 'Postman', level: 85, color: 'from-pink-400 to-pink-600', expertise: 'Intermediate' },
         { name: 'CI/CD', level: 65, color: 'from-purple-400 to-purple-600', expertise: 'Intermediate' },
       ]
     }
@@ -201,7 +201,7 @@ const Skills: React.FC = () => {
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
                   {[
-                    { name: 'Object-Oriented Programming', icon: Code, color: 'from-blue-500/20 to-blue-600/20' },
+                    { name: 'Automation', icon: Code, color: 'from-blue-500/20 to-blue-600/20' },
                     { name: 'RESTful APIs', icon: Link2, color: 'from-emerald-500/20 to-emerald-600/20' },
                     { name: 'Responsive Design', icon: Smartphone, color: 'from-purple-500/20 to-purple-600/20' },
                     { name: 'Version Control', icon: GitBranch, color: 'from-orange-500/20 to-orange-600/20' },
@@ -233,9 +233,9 @@ const Skills: React.FC = () => {
           {/* Enhanced Professional Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6" data-aos="fade-up" data-aos-delay="300">
             {[
-              { number: '3+', label: 'Years Experience', color: 'text-blue-400', bg: 'from-blue-500/20 to-blue-600/20', border: 'border-blue-500/30' },
-              { number: '20+', label: 'Projects Completed', color: 'text-emerald-400', bg: 'from-emerald-500/20 to-emerald-600/20', border: 'border-emerald-500/30' },
-              { number: '10+', label: 'Technologies Mastered', color: 'text-purple-400', bg: 'from-purple-500/20 to-purple-600/20', border: 'border-purple-500/30' },
+              { number: '2+', label: 'Years Experience', color: 'text-blue-400', bg: 'from-blue-500/20 to-blue-600/20', border: 'border-blue-500/30' },
+              { number: '5+', label: 'Projects Completed', color: 'text-emerald-400', bg: 'from-emerald-500/20 to-emerald-600/20', border: 'border-emerald-500/30' },
+              { number: '5+', label: 'Technologies Mastered', color: 'text-purple-400', bg: 'from-purple-500/20 to-purple-600/20', border: 'border-purple-500/30' },
               { number: '100%', label: 'Client Satisfaction', color: 'text-yellow-400', bg: 'from-yellow-500/20 to-yellow-600/20', border: 'border-yellow-500/30' }
             ].map((stat, index) => (
               <div

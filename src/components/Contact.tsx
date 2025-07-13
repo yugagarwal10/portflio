@@ -127,40 +127,6 @@ const Contact: React.FC = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Enhanced Social Links */}
-                  <div>
-                    <div className="flex items-center space-x-3 sm:space-x-4 mb-4 sm:mb-6">
-                      <div className="p-3 sm:p-4 bg-gradient-to-br from-blue-600 via-purple-600 to-emerald-600 rounded-2xl shadow-xl">
-                        <Award className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
-                      </div>
-                      <div>
-                        <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white">Follow Me</h3>
-                        <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-full mt-2"></div>
-                      </div>
-                    </div>
-
-                    <div className="flex space-x-4 sm:space-x-6">
-                      <a
-                        href="https://github.com/yugagarwal10"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group p-4 sm:p-5 bg-slate-800/30 hover:bg-slate-700/40 border border-slate-700/50 hover:border-slate-600/70 rounded-2xl transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-blue-500/20 backdrop-blur-sm relative overflow-hidden"
-                      >
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        <Github className="h-6 w-6 sm:h-8 sm:w-8 group-hover:text-blue-400 transition-colors relative z-10" />
-                      </a>
-                      <a
-                        href="https://linkedin.com/in/yugagarwal"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group p-4 sm:p-5 bg-slate-800/30 hover:bg-slate-700/40 border border-slate-700/50 hover:border-slate-600/70 rounded-2xl transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-blue-500/20 backdrop-blur-sm relative overflow-hidden"
-                      >
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-emerald-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        <Linkedin className="h-6 w-6 sm:h-8 sm:w-8 group-hover:text-blue-400 transition-colors relative z-10" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
