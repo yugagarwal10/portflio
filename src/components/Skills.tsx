@@ -34,9 +34,9 @@ const Skills: React.FC = () => {
       borderColor: 'border-purple-500/30',
       skills: [
         { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-yellow-600', expertise: 'Advanced' },
+        { name: 'TypeScript', level: 80, color: 'from-indigo-400 to-indigo-600', expertise: 'Advanced' },
         { name: 'Python', level: 60, color: 'from-blue-400 to-blue-600', expertise: 'Intermediate' },
         { name: 'C', level: 45, color: 'from-gray-400 to-gray-600', expertise: 'Basic' },
-        { name: 'PHP', level: 40, color: 'from-indigo-400 to-indigo-600', expertise: 'Basic' },
       ]
     },
     {
@@ -46,8 +46,8 @@ const Skills: React.FC = () => {
       borderColor: 'border-orange-500/30',
       skills: [
         { name: 'Git/GitHub', level: 90, color: 'from-gray-600 to-gray-800', expertise: 'Expert' },
-        { name: 'Docker', level: 70, color: 'from-blue-400 to-blue-600', expertise: 'Intermediate' },
         { name: 'Postman', level: 85, color: 'from-pink-400 to-pink-600', expertise: 'Intermediate' },
+        { name: 'Docker', level: 70, color: 'from-blue-400 to-blue-600', expertise: 'Intermediate' },
         { name: 'CI/CD', level: 65, color: 'from-purple-400 to-purple-600', expertise: 'Intermediate' },
       ]
     }

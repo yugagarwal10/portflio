@@ -319,7 +319,7 @@ const About: React.FC = () => {
               <div className="absolute bottom-0 right-1/4 w-24 h-24 bg-gradient-to-tr from-purple-500 to-pink-500 rounded-full blur-2xl"></div>
             </div>
             <div className="relative z-10 text-center h-full flex flex-col justify-center">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-4 sm:mb-6">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-black  bg-gradient-to-r from-blue-400 via-emerald-400 to-purple-400 bg-clip-text text-transparent mb-4 sm:mb-6">
                   About Me
                 </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 sm:mb-8 mt-2 max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="100">
@@ -328,7 +328,7 @@ const About: React.FC = () => {
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     className={`group flex items-center justify-center space-x-2 px-3 py-4 rounded-lg font-bold transition-all duration-300 hover:scale-105 relative overflow-hidden backdrop-blur-sm text-sm sm:text-base ${activeTab === tab.id
-                      ? 'bg-gradient-to-r from-blue-600 to-emerald-600 text-white shadow-xl shadow-blue-500/25'
+                      ? 'bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 hover:from-blue-700 hover:via-purple-700 hover:to-emerald-700 text-white shadow-xl shadow-blue-500/25 '
                       : 'bg-slate-800/50 text-slate-400 hover:text-white hover:bg-slate-700/50 border border-slate-700/50 hover:border-slate-600/50'
                       }`}
                   >

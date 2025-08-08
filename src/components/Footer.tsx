@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                   <Github className="h-4 w-4 sm:h-5 sm:w-5 text-slate-400 group-hover:text-blue-400 transition-colors relative z-10" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yugagarwal"
+                  href="https://in.linkedin.com/in/yug-agarwal-50019a291?trk=people-guest_people_search-card"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-2 sm:p-3 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 hover:border-slate-600 rounded-lg sm:rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20 backdrop-blur-sm relative overflow-hidden"

@@ -45,9 +45,8 @@ const Hero: React.FC = () => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-black leading-tight mb-6 sm:mb-8">
                 <span className="text-white">I'm </span>
                 <span className="group relative bg-gradient-to-r from-blue-400 via-emerald-400 to-purple-400 bg-clip-text text-transparent cursor-pointer name">
-                  Yug
+                  Yug Agarwal
                 </span>
-                <span className="group relative text-orange-400 cursor-pointer name"> Agarwal</span>
               </h2>
 
               {/* Social Links Section */}
@@ -64,7 +63,7 @@ const Hero: React.FC = () => {
                   </div>
                 </a>
                 <a
-                  href="https://linkedin.com/in/yugagarwal"
+                  href="https://in.linkedin.com/in/yug-agarwal-50019a291?trk=people-guest_people_search-card"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative"

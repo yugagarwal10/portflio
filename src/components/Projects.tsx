@@ -217,7 +217,7 @@ const Projects: React.FC = () => {
                 key={filter.id}
                 onClick={() => setActiveFilter(filter.id)}
                 className={`group flex items-center space-x-2 px-6 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 relative overflow-hidden backdrop-blur-sm text-sm ${activeFilter === filter.id
-                  ? 'bg-gradient-to-r from-blue-600 to-emerald-600 text-white shadow-xl shadow-blue-500/25'
+                  ? 'bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 hover:from-blue-700 hover:via-purple-700 hover:to-emerald-700 text-white shadow-xl shadow-blue-500/25'
                   : 'bg-slate-800/50 text-slate-400 hover:text-white hover:bg-slate-700/50 border border-slate-700/50 hover:border-slate-600/50'
                   }`}
               >
@@ -244,11 +244,11 @@ const Projects: React.FC = () => {
                 onMouseLeave={() => setHoveredProject(null)}
               >
                 {/* Project Image with Enhanced Overlay */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden p-2">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-56 sm:h-64 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-56 sm:h-64 md:h-72 object-cover group-hover:scale-105 rounded-2xl transition-transform duration-300"
                   />
 
                   {/* Enhanced Gradient Overlay */}
